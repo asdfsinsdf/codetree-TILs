@@ -5,10 +5,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-
+        System.out.println(n);
         if(n < 0){
-            System.out.println(n);
-            System.out.println("minus");
+           
+        System.out.println("minus");
 
         }
 
