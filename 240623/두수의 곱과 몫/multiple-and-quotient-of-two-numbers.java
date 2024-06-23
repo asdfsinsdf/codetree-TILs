@@ -6,7 +6,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println("300 * 5 = " + a * 5);
-        System.out.println("300 / 5 = " + a / 5);
+       System.out.println(a + " * " + b + " = " + a * b);
+        System.out.println(a + " / " + b + " = " + a / b);
     }
 }
