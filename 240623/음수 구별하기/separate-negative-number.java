@@ -4,10 +4,10 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
+        int n = sc.nextInt();
 
-        if(a < 0){
-            System.out.println(a);
+        if(n < 0){
+            System.out.println(n);
             System.out.println("minus");
 
         }
