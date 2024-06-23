@@ -1,15 +1,17 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // 여기에 코드를 작성해주세요.
+        // 변수 선언 및 입력
+        Scanner sc = new Scanner(System.in);
+        int w = sc.nextInt();
+        int h = sc.nextInt();
 
-        int a = 12, b = 7;
-        a += 8;
-        System.out.println(a);
+        w += 8;
+        h *= 3;
 
-        b *= 3;
-        System.out.println(b);
-
-        System.out.println(a * b);
-
+        System.out.println(w);
+        System.out.println(h);
+        System.out.println(w * h);
     }
 }
