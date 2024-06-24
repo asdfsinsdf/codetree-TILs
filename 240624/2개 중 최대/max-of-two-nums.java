@@ -6,9 +6,9 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        b = a < 10 ? 5 : 3;
+        int maxnum = a > b ? a:b;
 
-        System.out.println(b);
+        System.out.println(maxnum);
 
     }
 }
