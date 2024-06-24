@@ -5,12 +5,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if (a>=1){
-            System.out.println("t");
-        }else{
-            System.out.println("f");
-        }
+         String b = (a == 1) ? "t" : "f";
 
+         System.out.println(b);
 
         
 
