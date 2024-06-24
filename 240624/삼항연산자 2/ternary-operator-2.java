@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if (a>0){
+        if (a>=1){
             System.out.println("t");
         }else{
             System.out.println("f");
