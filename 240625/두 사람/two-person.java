@@ -14,14 +14,11 @@ public class Main {
         char s_1 = sc.next().charAt(0);
 
        
-        if (a >= 19 && s == 'M') {
+       if(a >= 19 && s =='M' || b >= 19 && s_1 == 'W'){
             System.out.println("1");
-        } else if (b >= 19 && s_1 == 'W') {
+       }else{
             System.out.println("0");
-        } else {
-            System.out.println("0");
-        }
-
+       }
         
     }
 }
