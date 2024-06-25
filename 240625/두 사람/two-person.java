@@ -16,7 +16,7 @@ public class Main {
        
         if (a >= 19 && s == 'M') {
             System.out.println("1");
-        } else if (b >= 19 && s_1 == 'M') {
+        } else if (b >= 19 && s_1 == 'W') {
             System.out.println("0");
         } else {
             System.out.println("0");
