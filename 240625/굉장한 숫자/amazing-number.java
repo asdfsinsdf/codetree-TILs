@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if(a % 3 == 0 || (a % 5 == 1 && a >= 10)){
+        if(a % 3 == 0 || a % 5 == 1 ){
             System.out.println("true");
         }else{
             System.out.println("false");
