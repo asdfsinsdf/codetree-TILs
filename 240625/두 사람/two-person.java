@@ -14,7 +14,7 @@ public class Main {
         char s_1 = sc.next().charAt(0);
 
        
-       if(a >= 19 && s =='M' || b >= 19 && s_1 == 'W'){
+       if(a >= 19 && s =='M' || b >= 19 && s_1 == 'M'){
             System.out.println("1");
        }else{
             System.out.println("0");
