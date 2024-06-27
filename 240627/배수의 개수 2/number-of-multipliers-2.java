@@ -1,15 +1,21 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int cnt =0;
+        
+        // 변수 선언
+        int a, cnt = 0;
 
-        for(int i = 1; i <=10; i++){
-            if (i % 2 == 1){
+        // 입력
+        for(int i = 1; i <= 10; i++) {
+            a = sc.nextInt();
+
+            if(a % 2 == 1)
                 cnt++;
-            }
         }
-        System.out.println(cnt);
+
+        // 출력
+        System.out.print(cnt);
     }
 }
